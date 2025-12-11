@@ -1,0 +1,419 @@
+{
+    "product": {
+        "id": "0",
+        "pid": 0,
+        "sku": "0",
+        "type": "LX",
+        "variant": "LXB",
+        "description": "LXB is a product that is used to create a light panel.",
+        "price": 200,
+        "coordinates": {
+            "camera": {
+                "camera_position": {
+                "x": 6.79,
+                "y": 6.31,
+                "z": 8.55
+            },
+            "camera_target": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+            }
+        },
+        "model": {
+            "glb": "LXB3.glb",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "options": [
+             {
+                "ui_title": "Model",
+                "ui_description": "Choose the model you want to use",
+                "type": "select",
+                "default": 0,
+                "options": [
+                    {
+                        "index": 0,
+                        "name": "Facade",
+                        "type": "single_select",
+                        "model": "facade.glb",
+                        "value": null,
+                        "price": 100
+                    },
+                    {
+                        "index": 1,
+                        "name": "Roofline",
+                        "type": "single_select",
+                        "model": "roofline.glb",
+                        "value": null,
+                        "price": 100
+                    }
+                ]
+            },
+            {
+                "ui_title": "Pixels",
+                "ui_description": "Choose the number of pixels you want to use",
+                "type": "select",
+                "default": 0,
+                "options": [
+                    {
+                        "index": 0,
+                        "name": "1 pixels / m",
+                        "type": "single_select",
+                        "value": 1,
+                        "price": 100
+                    },
+                    {
+                        "index": 1,
+                        "name": "2 pixels / m",
+                        "type": "single_select",
+                        "value": 2,
+                        "price": 100
+                    },
+                    {
+                        "index": 2,
+                        "name": "3 pixels / m",
+                        "type": "single_select",
+                        "value": 3,
+                        "price": 100
+                    },
+                    {
+                        "index": 3,
+                        "name": "4 pixels / m",
+                        "type": "single_select",
+                        "value": 4,
+                        "price": 100
+                    },
+                    {
+                        "index": 4,
+                        "name": "5 pixels / m",
+                        "type": "single_select",
+                        "value": 5,
+                        "price": 100
+                    },
+                    {
+                        "index": 5,
+                        "name": "6 pixels / m",
+                        "type": "single_select",
+                        "value": 6,
+                        "price": 100
+                    },
+                    {
+                        "index": 6,
+                        "name": "7 pixels / m",
+                        "type": "single_select",
+                        "value": 7,
+                        "price": 100
+                    },
+                    {
+                        "index": 7,
+                        "name": "8 pixels / m",
+                        "type": "single_select",
+                        "value": 8,
+                        "price": 100
+                    },
+                    {
+                        "index": 8,
+                        "name": "9 pixels / m",
+                        "type": "single_select",
+                        "value": 9,
+                        "price": 100
+                    },
+                    {
+                        "index": 9,
+                        "name": "10 pixels / m",
+                        "type": "single_select",
+                        "value": 10,
+                        "price": 100
+                    }
+                ]
+            },
+            {
+                "ui_title": "Length",
+                "ui_description": "Choose the length you want to use (in mm)",
+                "type": "select",
+                "default": 0,
+                "special_type": {
+                    "type": "mesh_size",
+                    "meshes": ["LVCAO-3000.001","LightPanel"]
+                },
+                "options": [
+                    {
+                        "index": 0,
+                        "name": "1500mm",
+                        "type": "single_select",
+                        "value": 1500,
+                        "price": 100
+                    },
+                    {
+                        "index": 1,
+                        "name": "3000mm",
+                        "type": "single_select",
+                        "value": 3000,
+                        "price": 100
+                    },
+                    {
+                        "index": 2,
+                        "name": "Custom (mm)",
+                        "type": "input_number_select",
+                        "from": 1500,
+                        "to": 3000,
+                        "default_value": 1500,
+                        "price": 100
+                    }
+                ]
+            },
+            {
+                "ui_title": "LED Colour",
+                "ui_description": "Choose the colour of the LED you want to use",
+                "type": "select",
+                "default": 0,
+                "options": [
+                    {
+                        "index": 0,
+                        "name": "RGB",
+                        "type": "single_select",
+                        "value": null,
+                        "price": 100
+                    },
+                    {
+                        "index": 1,
+                        "name": "RGBA",
+                        "type": "single_select",
+                        "value": null,
+                        "price": 100
+                    },
+                    {
+                        "index": 2,
+                        "name": "Dynamic White",
+                        "type": "single_select",
+                        "value": null,
+                        "price": 100
+                    },
+                    {
+                        "index": 3,
+                        "name": "White",
+                        "type": "multiple_select",
+                        "default": 0,
+                        "options": [
+                            {
+                                "index": 0,
+                                "name": "2400K",
+                                "value": null,
+                                "price": 100
+                            },
+                            {
+                                "index": 1,
+                                "name": "2700K",
+                                "value": null,
+                                "price": 100
+                            },
+                            {
+                                "index": 2,
+                                "name": "3000K",
+                                "value": null,
+                                "price": 100
+                            },
+                            {   
+                                "index": 3,
+                                "name": "3500K",
+                                "value": null,
+                                "price": 100
+                            },
+                            {
+                                "index": 4,
+                                "name": "4000K",
+                                "value": null,
+                                "price": 100
+                            },
+                            {
+                                "index": 5,
+                                "name": "5000K",
+                                "value": null,
+                                "price": 100
+                            },
+                            {
+                                "index": 6,
+                                "name": "6000K",
+                                "value": null,
+                                "price": 100
+                            }
+                        ]
+                    },
+                    {
+                        "index": 4,
+                        "name": "RGBW",
+                        "type": "multiple_select",
+                        "default": 0,
+                        "options": [
+                            {
+                                "index": 0,
+                                "name": "2400K",
+                                "value": null,
+                                "price": 100
+                            },
+                            {   
+                                "index": 1,
+                                "name": "2700K",
+                                "value": null,
+                                "price": 100
+                            },
+                            {   
+                                "index": 2,
+                                "name": "3000K",
+                                "value": null,
+                                "price": 100
+                            },
+                            {       
+                                "index": 3,
+                                "name": "3500K",
+                                "value": null,
+                                "price": 100
+                            },
+                            {   
+                                "index": 4,
+                                "name": "4000K",
+                                "value": null,
+                                "price": 100
+                            },
+                            {       
+                                "index": 5,
+                                "name": "5000K",
+                                "value": null,
+                                "price": 100
+                            },
+                            {       
+                                "index": 6,
+                                "name": "6000K",
+                                "value": null,
+                                "price": 100
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ui_title": "Control",
+                "ui_description": "Choose the control you want to use",
+                "type": "select",
+                "default": 0,
+                "options": [
+                    {
+                        "index": 0,
+                        "name": "DMX",
+                        "type": "single_select",
+                        "value": null,
+                        "price": 100
+                    },
+                    {
+                        "index": 1,
+                        "name": "SPI",
+                        "type": "single_select",
+                        "value": null,
+                        "price": 100
+                    },
+                    {
+                        "index": 2,
+                        "name": "X-Stream",
+                        "type": "single_select",
+                        "value": null,
+                        "price": 100
+                    }
+                ]
+            },
+            {
+                "ui_title": "Voltage",
+                "ui_description": "Choose the voltage you want to use",
+                "type": "select",
+                "default": 0,
+                "options": [
+                    {
+                        "index": 0,
+                        "name": "100-277V AC",
+                        "type": "single_select",
+                        "value": null,
+                        "price": 100
+                    }
+                ]
+            },
+            {
+                "ui_title": "Mounting",
+                "ui_description": "Choose the mounting you want to use",
+                "type": "select",
+                "default": 0,
+                "options": [
+                    {
+                        "index": 0,
+                        "name": "Straight",
+                        "type": "single_select",
+                        "value": null,
+                        "price": 100
+                    },
+                    {
+                        "index": 1,
+                        "name": "Corner",
+                        "type": "single_select",
+                        "value": null,
+                        "price": 100
+                    },
+                    {
+                        "index": 2,
+                        "name": "Recessed",
+                        "type": "single_select",
+                        "value": null,
+                        "price": 100
+                    }
+                ]
+            },
+            {
+                "ui_title": "Housing Colour",
+                "ui_description": "Choose the colour of the housing you want to use",
+                "type": "color",
+                "color_type": "material",
+                "material": ["Housing"],
+                "default": 0,
+                "options": [
+                    {
+                        "index": 0,
+                        "name": "Aluminium",
+                        "type": "single_color",
+                        "hex": "#E6E6E6",
+                        "price": 100
+                    },
+                    {
+                        "index": 1,
+                        "name": "Silver",
+                        "type": "single_color",
+                        "hex": "#c0c0c0",
+                        "price": 100
+                    },
+                    {
+                        "index": 2,
+                        "name": "Black",
+                        "type": "single_color",
+                        "hex": "#3C3C3C",
+                        "price": 100
+                    },
+                    {
+                        "index": 3,
+                        "name": "White",
+                        "type": "single_color",
+                        "hex": "#ffffff",
+                        "price": 100
+                    },
+                    {
+                        "index": 4,
+                        "name": "Custom RAL",
+                        "type": "color_picker",
+                        "default": "#B43C3C",
+                        "price": 100
+                    }
+                ]
+            }
+        ]
+    }
+}

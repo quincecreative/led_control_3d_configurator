@@ -3,18 +3,18 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="icon" type="image/svg+xml" href="./logo_small.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>led_configurator_dev</title>
+  <title>LED CTRL 3D Configurator</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
   <!-- FONT AWESOME -->
   <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_drop_down" /> -->
-  <script type="module" crossorigin src="./assets/index-BQvCMu7Y.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-Cfuq9aHq.css">
+  <script type="module" crossorigin src="./assets/index-CVxRP8K3.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-upbybenA.css">
 </head>
 
 <body>
@@ -23,9 +23,10 @@
 
     <!-- loading spinnerrrrr -->
     <div id="loadingSpinner">
+      <div id="loadingLogo"></div>
       <div id="loadingSpinnerBorderMain" class="loadingSpinnerBorder"></div>
       <!-- <div id="loadingPercentages">0%</div> -->
-      <div id="loadingLogo"></div>
+
     </div>
 
     <div id="mainContainer">
@@ -46,6 +47,7 @@
             <div id="loadingSpinnerBorderCanvas" class="loadingSpinnerBorder"></div>
           </div>
           <canvas id="renderCanvas"></canvas>
+          <div id="partNumberContainer">Part Number: <span id="partNumber"></span></div>
         </div>
 
         <!-- MENU CONTAINER -->

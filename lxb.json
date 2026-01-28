@@ -42,21 +42,21 @@
                     {
                         "index": 0,
                         "name": "Façade",
+                        "icon_url": "",
                         "type": "single_select",
                         "model": "facade.glb",
                         "value": null,
                         "price": 100,
-                        "icon_url": "",
                         "part_number_code": "F"
                     },
                     {
                         "index": 1,
                         "name": "Roofline",
+                        "icon_url": "",
                         "type": "single_select",
                         "model": "roofline.glb",
                         "value": null,
                         "price": 100,
-                        "icon_url": "",
                         "part_number_code": "R"
                     }
                 ]
@@ -71,6 +71,7 @@
                     {
                         "index": 0,
                         "name": "1 pixels / m",
+                        "icon_url": "",
                         "type": "single_select",
                         "value": 1,
                         "price": 100,
@@ -79,6 +80,7 @@
                     {
                         "index": 1,
                         "name": "2 pixels / m",
+                        "icon_url": "",
                         "type": "single_select",
                         "value": 2,
                         "price": 100,
@@ -87,6 +89,7 @@
                     {
                         "index": 2,
                         "name": "3 pixels / m",
+                        "icon_url": "",
                         "type": "single_select",
                         "value": 3,
                         "price": 100,
@@ -95,6 +98,7 @@
                     {
                         "index": 3,
                         "name": "4 pixels / m",
+                        "icon_url": "",
                         "type": "single_select",
                         "value": 4,
                         "price": 100,
@@ -103,6 +107,7 @@
                     {
                         "index": 4,
                         "name": "5 pixels / m",
+                        "icon_url": "",
                         "type": "single_select",
                         "value": 5,
                         "price": 100,
@@ -111,6 +116,7 @@
                     {
                         "index": 5,
                         "name": "6 pixels / m",
+                        "icon_url": "",
                         "type": "single_select",
                         "value": 6,
                         "price": 100,
@@ -119,6 +125,7 @@
                     {
                         "index": 6,
                         "name": "7 pixels / m",
+                        "icon_url": "",
                         "type": "single_select",
                         "value": 7,
                         "price": 100,
@@ -127,6 +134,7 @@
                     {
                         "index": 7,
                         "name": "8 pixels / m",
+                        "icon_url": "",
                         "type": "single_select",
                         "value": 8,
                         "price": 100,
@@ -135,6 +143,7 @@
                     {
                         "index": 8,
                         "name": "9 pixels / m",
+                        "icon_url": "",
                         "type": "single_select",
                         "value": 9,
                         "price": 100,
@@ -143,6 +152,7 @@
                     {
                         "index": 9,
                         "name": "10 pixels / m",
+                        "icon_url": "",
                         "type": "single_select",
                         "value": 10,
                         "price": 100,
@@ -182,6 +192,7 @@
                     {
                         "index": 2,
                         "name": "Custom (mm)",
+                        "icon_url": "",
                         "type": "input_number_select",
                         "from": 1500,
                         "to": 3000,
@@ -228,6 +239,7 @@
                     {
                         "index": 3,
                         "name": "White",
+                        "icon_url": "",
                         "type": "multiple_select",
                         "default": 0,
                         "part_number_code": "W",
@@ -235,6 +247,7 @@
                             {
                                 "index": 0,
                                 "name": "2400K",
+                                "icon_url": "",
                                 "value": null,
                                 "price": 100,
                                 "part_number_code": "24K"
@@ -300,6 +313,7 @@
                             {
                                 "index": 0,
                                 "name": "2400K",
+                                "icon_url": "",
                                 "value": null,
                                 "price": 100,
                                 "part_number_code": "24K"
@@ -420,6 +434,7 @@
                     {
                         "index": 0,
                         "name": "Straight",
+                        "icon_url": "",
                         "type": "single_select",
                         "value": null,
                         "price": 100,
@@ -428,6 +443,7 @@
                     {
                         "index": 1,
                         "name": "Corner",
+                        "icon_url": "",
                         "type": "single_select",
                         "value": null,
                         "price": 100,
@@ -436,6 +452,7 @@
                     {
                         "index": 2,
                         "name": "Recessed",
+                        "icon_url": "",
                         "type": "single_select",
                         "value": null,
                         "price": 100,

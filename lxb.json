@@ -46,6 +46,7 @@
                         "model": "facade.glb",
                         "value": null,
                         "price": 100,
+                        "icon_url": "",
                         "part_number_code": "F"
                     },
                     {
@@ -55,6 +56,7 @@
                         "model": "roofline.glb",
                         "value": null,
                         "price": 100,
+                        "icon_url": "",
                         "part_number_code": "R"
                     }
                 ]
